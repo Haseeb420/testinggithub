@@ -1,0 +1,210 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us-eStore</title>
+    <!-- font awsone icons cdn added here -->
+    <script src="https://kit.fontawesome.com/81c44bd5c6.js" crossorigin="anonymous"></script>
+    <!-- css files are added here -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <div class="cotainer">
+        <!-- navbar code starts here -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navigation">
+            <a href="index.html" class="navbar-brand text-center d-lg-none text-danger text-uppercase">
+                Online Shoes
+                Store
+            </a>
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav m-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About US</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact US</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="SignUp.html">SignUp</a>
+                    </li>
+                    <li class="nav-item">
+                    </li>
+                </ul>
+                <!-- <button type="button" id="nav_login_btn" class="btn btn-primary d-none d-md-block "><a
+                    href="login.html">Login</a></button>
+                <button type="button" id="nav_signUp-btn" class="btn btn-success ml-3 mr-2 d-none d-md-block"><a
+                        href="#">SignUp</a></button> -->
+            </div>
+
+        </nav>
+
+        <div class="container mt -3 bg-gradient-secondary">
+            <div class="row bg-light py-1">
+                <div class="col-2">
+                    <h1><a class="brand_name" href="index.html">eStore</a></h1>
+                </div>
+                <div class="col-7 offset-lg-1 py-1">
+                    <form action="#">
+                        <div class="form-row">
+                            <div class="col-10">
+                                <input type="search" class="form-control" placeholder="Search your favourate item here">
+                            </div>
+                            <div class="col-1">
+                                <button class="btn btn-warning" type="submit">Search</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-2">
+                    <a class="btn text-black text-decoration-none fw-bolder d-block" href="contact.html">
+                        <i class="fas fa-cart-plus  trolly h1"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="container contact_data my-3 pl-5 p-3 bg-white">
+
+            <h1 class="text-center my-3">Contact Us</h1>
+            <hr>
+            <div class="row my-3" id="contact">
+                <div class="col-md-4">
+                    <div class="row">
+                        <div class="col-12">
+                            <h5>Get in Touch with us</h5>
+                            <p>
+                                We are always here to help you. We appriciate your feedbacks. And Try our 100% to enter
+                                your complains.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-3"><i class="fas fa-map-marker-alt phone-alt icon"></i></div>
+                        <div class="col-9">
+                            <div class="label">Address:</div>
+                            <p class="label_description">Lahore, Punjab, Pakistan</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-3">
+                            <i class="fas fa-envelope icon"></i></i>
+                        </div>
+                        <div class="col-9">
+                            <div class="label">Email</div>
+                            <p class="label_description">contact@bms.com</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-3">
+                            <i class="fas fa-phone-alt icon"></i>
+                        </div>
+                        <div class="col-9">
+                            <div class="label">Helpline</div>
+                            <p class="label_description">0800-0000</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!--         description about bank ends here -->
+                <!--
+                all the feedback or form code start here for contact page -->
+                <div class="col-md-7 offset-md-1 contact_form">
+                    <div class="row">
+                        <h5>Message Us </h5>
+                    </div>
+                    <form action="/loginUser" method="post">
+                        <div class="form-group">
+                            <input type="text" placeholder="Enter your Name" class="form-control" name="name"
+                                   id="exampleInputText1">
+                        </div>
+                        <div class="form-group">
+                            <input type="Email" placeholder="Enter your Email" class="form-control" name="Email"
+                                   id="exampleInputEmail1">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" placeholder="Subject" class="form-control" name="subject"
+                                   id="exampleInputText2">
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" placeholder="Enter your Complain or  Give us your Feedback "
+                                      name="content" id="exampleFormControlTextarea1" rows="4"></textarea>
+                        </div>
+                        <button type="submit" id="btn" class="btn btn-primary">Send</button>
+                    </form>
+                </div>
+
+                <!--
+                all the feedback or form code start here for contact page -->
+
+            </div>
+        </div>
+
+    </div>
+    <!--Footer starts from here-->
+    <footer class="container-fluid mt-3 bg-light">
+        <div class="row">
+            <div class="col-md-2 col-6 offset-md-3 offset-md-1">
+                <h6>About US</h6>
+                <ul>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="#">Policies</a></li>
+                    <li><a href="#">Rates</a></li>
+                    <a href="#">Developers</a>
+                </ul>
+            </div>
+            <div class="col-md-2 col-6 offset-md-1">
+                <h6>Contact Us</h6>
+                <ul>
+                    <li>Address:<small>Lahore,Pakistan</small></li>
+                    <li>Phone#:<small>0800-0000</li></small></li>
+                    <li><a href="#">Give Feedback</a></li>
+
+                </ul>
+            </div>
+            <div class="col-md-2 col-12 offset-md-1">
+                <h6>Follow us on</h6>
+                <a href="#"><i id="facebook" class="fab fa-facebook-f"></i></a>
+                <a href="#"><i id="twitter" class="fab fa-twitter"></i></a>
+                <a href="#"><i id="linkedin" class="fab fa-linkedin-in"></i></a>
+                <a href="#"> <i id="youtube" class="fa fa-youtube" aria-hidden="true"></i></a>
+                <a href="#"><i id="google_plus" class="fa fa-google-plus" aria-hidden="true"></i> </a>
+            </div>
+        </div>
+        <hr>
+        <div class="blockquote text-center">
+            <p class="mb-0">
+                &copycopyright@eStore 2021
+            </p>
+        </div>
+    </footer>
+
+    <!-- footer code ends here -->
+    </div>
+
+    <!-- all script files are added here -->
+    <script src="./js/jquery-3.5.1.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
