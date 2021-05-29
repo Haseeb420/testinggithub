@@ -1,0 +1,15 @@
+Ead Project Database Tables
+
+
+1)Users rank=1,2,3 type="admin, selleer,cutomer"
+2)Shop 
+3)Shop_sales shopeid,total,remaining product,total_prod
+4Product
+5)main-category
+6)sub-category
+
+git commands for projects
+
+1)git clone "repository link"
+2)cd "folder name"
+3)
